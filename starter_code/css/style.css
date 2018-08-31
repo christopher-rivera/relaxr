@@ -1,0 +1,24 @@
+.background-image1 {
+    background-image: url(../images/header_bg.jpg);
+}
+
+.tag-line {
+    margin-left: 50%;
+}
+
+.logo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.tag-line {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.yellow-button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
