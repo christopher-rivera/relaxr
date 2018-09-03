@@ -1,0 +1,43 @@
+.wrapper {
+    display: grid;
+    background-color: #fff;
+    color: #444;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.header {
+    grid-column: 2 / 4;
+    grid-row: 1 / 1;
+    background-image: url(../images/header_bg.jpg);
+    background-size: cover;
+    margin: 0px 0px 250px 0px;
+}
+
+.benefits {
+    grid-column: 1 / 5;
+    grid-row: 2 / 2;
+}
+
+.footer {
+    grid-column: 1 / 5;
+    grid-row: 3 / 3;
+}
+
+.social {
+    grid-column: 1 / 5;
+    grid-row: 4/4;
+}
+
+.logo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    margin: 0px 0px;
+}

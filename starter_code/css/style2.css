@@ -1,5 +1,9 @@
-.header-image {
-    background-image: url(../images/header_bg.jpg);
+header {
+    height: 670px;
+    background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+    padding-top: 32px;
+    display: block;
+    margin: 0px 0px;
 }
 
 .tag-line {
@@ -11,6 +15,7 @@
     font-weight: 800;
     color: white;
     margin: 10px 0px 0px 0px;
+    font-size: 48px;
 }
 
 .tag-line {
