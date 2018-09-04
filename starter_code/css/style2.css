@@ -1,34 +1,125 @@
-header {
-    height: 670px;
-    background: url(../images/header_bg.jpg) no-repeat top center #131e27;
-    padding-top: 32px;
-    display: block;
-    margin: 0px 0px;
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.tag-line {
-    margin-left: 50%;
+header {
+    height: 670px;
+    background: url(../images/header_bg.jpg) no-repeat center #131e27;
+    padding: 32px 0px 0px 0px;
 }
 
 .logo {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     color: white;
-    margin: 10px 0px 0px 0px;
+    margin-left: 25%;
+    margin-top: 10px;
     font-size: 48px;
 }
 
-.tag-line {
-    font-family: 'Open Sans', sans-serif;
+.tagline {
     font-weight: 600;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.yellow {
+    background: #f9e42e;
+    color: #033048;
+    margin: 100px 825px;
+}
+
+.button {
+    font-weight: 800;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    width: 280px;
+    padding: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    margin: 300px auto;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.benefits {
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #033048;
+}
+
+article {
+    font-weight: 300;
+    color: #606161;
+    font-size: 20px;
+}
+
+.quote {
+    background: url(../images/testimonial_bg.jpg) no-repeat center #071324;
+    height: 400px;
+}
+
+blockquote {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 300;
+    font-style: italic;
+    padding: 75px 400px 75px 400px;
+}
+
+span {
+    font-weight: 600;
+    display: block;
+    font-style: normal;
+}
+
+.sign-up {
+    background: #f9e42e;
+    height: 100px;
+    width: auto;
+    padding: 50px 800px 50px 800px;
+}
+
+.blue {
+    background: #033048;
     color: white;
 }
 
-.yellow-button {
-    font-family: 'Open Sans', sans-serif;
+footer {
+    background: #121212;
+    height: auto;
+    width: 100%;
+}
+
+.footer-logo {
     font-weight: 800;
-    background: #f9e42e;
-    border: 5px;
-    color: #033048;
-    display: block;
+    color: #f9e42e;
+    font-size: 48px;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.copyright {
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
+
+.social {
+    text-align: center;
+    margin: 0px 10px 0px 10px;
 }
