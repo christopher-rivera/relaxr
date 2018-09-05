@@ -42,7 +42,6 @@ header {
 
 a {
     text-decoration: none;
-    display: block;
     margin: 300px auto;
     margin-top: 5%;
     display: inline-block;
@@ -110,16 +109,29 @@ footer {
     font-size: 48px;
     text-align: center;
     margin: 0px;
-    padding: 10px;
+    padding-top: 25px;
+    display: block;
+
 }
 
 .copyright {
     font-weight: 600;
     color: white;
     font-size: 20px;
+    text-align: center;
+    padding: 20px;
 }
 
-.social {
-    text-align: center;
-    margin: 0px 10px 0px 10px;
+#facebook {
+   display: inline-block;
+   text-align: center;
 }
+
+#facebook {
+    margin: 22px 10px 20px 910px;
+}
+
+#twitter {
+    margin: 22px 890px 20px 25px;
+}
+
